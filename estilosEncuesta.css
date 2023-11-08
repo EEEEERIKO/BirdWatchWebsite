@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jockey One', sans-serif;
+    
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    height: 1080;
+
+   
+
+    
+
+
+}
+
+
+.returnHome {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin-right: 40%;
+
+    color: #66C456;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 50px;
+
+}
+
+
+.header {
+
+
+
+    display: flex;
+
+
+
+
+
+    align-items: center;
+    align-content: center;
+    padding-top: 17;
+
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0));
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.contenedor-textos {
+    flex-basis: 50%;
+    padding-left: 94px;
+
+}
+
+
+.login {
+    color: #000;
+
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+.qebw {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+}
+
+.encuestas {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+
+}
+
+.quienesSomos {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+}
+
+.titulo {
+    right: 0;
+
+    height: 252px;
+    padding-top: 136px;
+    justify-content: right;
+    padding-right: 223px;
+
+
+    color: #3A3A3A;
+
+
+    text-align: right;
+    font-family: Jockey One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.8%;
+
+    letter-spacing: 4.41px;
+}
+
+.tit2 {
+    margin: 30px;
+}
+
+.ResEnc {
+
+    margin-top: 00;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valoranos {
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 300;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.boton1 {
+    width: 582px;
+    height: 86px;
+    flex-shrink: 0;
+
+
+    color: #FFF;
+
+    font-family: Jockey One;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 5px 50px;
+    border-radius: 103px;
+    background: url(ilustracionesEncuestas/Rectangle.svg), lightgray 50% / cover no-repeat;
+    text-decoration: none;
+}
+
+.boton2 {
+    width: 364px;
+    height: 86px;
+    flex-shrink: 0;
+
+    color: #FFF;
+
+    font-family: Jockey One;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 5px 50px;
+    border-radius: 103px;
+    background: url(ilustracionesEncuestas/Rectangle2.svg), lightgray 50% / cover no-repeat;
+    text-decoration: none;
+
+}
+.r{
+    height: 70px;
+}
+
+
+
+.h2 {
+
+    color: #3A3A3A;
+
+    text-align: right;
+    font-family: Jockey One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.8%;
+    letter-spacing: 1.08px;
+}
+
+.txt1 {
+    display: flex;
+    width: 684px;
+    height: 122px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: right;
+    margin-bottom: 80px;
+}
+
+.txt2 {
+    display: flex;
+    width: 684px;
+    height: 122px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 130px;
+
+}
+
+.loroRojo {
+    position: absolute;
+    top: 3px;
+    left: 120px;
+    width: 600px;
+    height: 497px;
+    transform: rotate(30);
+    flex-shrink: 0;
+    z-index: -1;
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    right: 0;  
+    margin-right: 0;
+}
+
+
+.rectanguloVerde {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+
+    width: 100%;
+}
+
+.rectanguloVerde {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+}

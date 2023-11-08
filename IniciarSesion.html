@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIRDWATCH</title>
+    <link rel="stylesheet" href="estilosLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="header">
+            <a class="returnHome" href="index.html">BIRDWATCH</a>
+            <div class="nav-links">
+
+                <a class="login" href="IniciarSesion.html">LOGIN</a>
+                <a class="qebw" href="QueEsBirdWath.html">¿QUÉ ES BIRDWATCH?</a>
+                <a class="encuestas" href="encuesta.html">ENCUESTAS</a>
+                <a class="quienesSomos" href="QuienesSomos.html">¡QUIENES SOMOS?</a>
+
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            <div class="izquierda">
+                <img src="ilustracionesLogin/RectangleVerde.jpg" alt="" class="rectVerde">
+                <img src="ilustracionesLogin/guacamayaaa.png" alt="" class="Guacamaya">
+
+
+
+
+            </div>
+            <div class="derecha">
+                <input type="text" name="usuario" id="mi_caja_de_texto" placeholder="Nombre">
+                <input type="password" name="clave" id="mi_caja_de_contraseña" placeholder="Contraseña">
+                <button id="iniciarSesion">INICIAR SESIÓN</button>
+                <div id="mensaje"></div>
+
+
+                <script>
+                    // Selecciona el botón y los campos de entrada
+                    const btnIniciarSesion = document.getElementById("iniciarSesion");
+                    const inputUsuario = document.getElementById("mi_caja_de_texto");
+                    const inputClave = document.getElementById("mi_caja_de_contraseña");
+                    const mensaje = document.getElementById("mensaje");
+                  
+                    // Agrega un evento de clic al botón "INICIAR SESIÓN"
+                    btnIniciarSesion.addEventListener("click", function() {
+                      // Obtiene el valor de los campos de entrada
+                      const usuario = inputUsuario.value;
+                      const clave = inputClave.value;
+                  
+                      // Verifica si los campos están vacíos
+                      if (usuario === "" || clave === "") {
+                        mensaje.textContent = "Por favor, completa todos los campos.";
+                      } else if (usuario === "admin" && clave === "1234admin") {
+                        // Credenciales válidas, muestra un mensaje de inicio de sesión exitoso
+                        mensaje.textContent = "Inicio de sesión exitoso";
+                      } else {
+                        // Credenciales inválidas, muestra un mensaje de error
+                        mensaje.textContent = "Credenciales incorrectas. Por favor, inténtalo de nuevo.";
+                      }
+                    });
+                  </script>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </main>
+
+</body>
+
+</html>

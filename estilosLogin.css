@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jockey One', sans-serif;
+    
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    height: 1080;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    right: 0;  
+    margin-right: 0;
+}
+
+.returnHome {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin-right: 40%;
+
+    color: #66C456;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 50px;
+
+}
+
+
+.header {
+
+
+
+    display: flex;
+
+
+
+
+
+    align-items: center;
+    align-content: center;
+    padding-top: 17;
+
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0));
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.contenedor-textos {
+    flex-basis: 50%;
+    padding-left: 94px;
+
+}
+
+
+.login {
+    color: #000;
+
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+.qebw {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+}
+
+.encuestas {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+
+}
+
+.quienesSomos {
+    color: #000;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 60px;
+
+}
+
+.derecha{
+    height: 100%;
+    width: auto;
+    align-items: center; 
+    flex-direction: column;
+    margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;;
+}
+.rectVerde{
+    position:absolute;
+    width: max-content;
+    height: 100%;
+    z-index: -1;
+}
+
+.guacamaya{
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    
+    position: absolute;
+    z-index: 1;
+}
