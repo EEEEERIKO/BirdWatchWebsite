@@ -64,8 +64,8 @@ body {
 
 .fotoEriko {
     border-radius: 400px;
-    width: auto; /* Ancho deseado */
-    height: auto; /* Alto deseado */
+    width: auto; 
+    height: auto; 
 }
 
 .txt2 {
@@ -132,18 +132,38 @@ body {
     margin-left: 5%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.header {
-    height: auto;
-    padding-top: 17;
-    position: fixed;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0));
-    background-size: cover;
-    z-index: 1;
+body {
+    font-family: 'Jockey One', sans-serif;
+    
+    min-height: 100vh;
 
 }
 
+.container {
+    position: relative;
+    height: 1080;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    right: 0;  
+    margin-right: 0;
+}
+
 .returnHome {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin-right: 40%;
+
     color: #66C456;
     text-align: center;
     font-family: Jockey One;
@@ -155,12 +175,35 @@ body {
     text-decoration: none;
     padding-left: 50px;
 
+}
+
+
+.header {
+
+
+
+    display: flex;
 
 
 
 
+
+    align-items: center;
+    align-content: center;
+    padding-top: 17;
+
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0));
+    background-size: cover;
+    z-index: 1;
 
 }
+
+.contenedor-textos {
+    flex-basis: 50%;
+    padding-left: 94px;
+
+}
+
 
 .login {
     color: #000;
@@ -173,7 +216,7 @@ body {
     line-height: normal;
     display: inline-block;
     text-decoration: none;
-    margin-left: 780px;
+
 
 }
 
@@ -187,7 +230,7 @@ body {
     line-height: normal;
     display: inline-block;
     text-decoration: none;
-    margin-left: 60px;
+    padding-left: 60px;
 
 }
 
@@ -201,7 +244,7 @@ body {
     line-height: normal;
     display: inline-block;
     text-decoration: none;
-    margin-left: 60px;
+    padding-left: 60px;
 
 
 }
@@ -216,5 +259,6 @@ body {
     line-height: normal;
     display: inline-block;
     text-decoration: none;
-    margin-left: 60px;
+    padding-left: 60px;
+
 }
